@@ -43,6 +43,11 @@ public class Topic_01_Check_Environment {
     public void TC_03_Form() {
         Assert.assertTrue(driver.findElement(By.xpath("//form[@data-testid='royal_login_form']")).isDisplayed());
     }
+@Test
+public void TC_04(){
+        System.out.println("Hello");
+        //Add comment
+}
 
     @AfterClass
     public void afterClass() {
