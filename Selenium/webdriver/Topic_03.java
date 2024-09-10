@@ -5,7 +5,7 @@ public class Topic_03 {
 System.out.println("TC01");
     }
     public void TC_02(){
-        System.out.println("TC_02");
+        System.out.println("TC_02-test");
 
     }
 }
